@@ -33,7 +33,6 @@
         },
         methods:{
             getCrypto(value){
-                console.log(value)
                 this.$store.dispatch('getCryptoDetails',value);
                 return this.$store.state.cryptoData
             },

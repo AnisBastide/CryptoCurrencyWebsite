@@ -39,7 +39,6 @@ export default new Vuex.Store({
     },
     deleteFavorite(state,payload){
       var index = state.favoriteCrypto.indexOf(payload)
-      console.log(index)
       state.favoriteCrypto.splice(index,1)
       localStorage.setItem("favoriteCrypto",JSON.stringify(state.favoriteCrypto));
     },
