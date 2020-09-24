@@ -9,14 +9,6 @@
   </div>
 </template>
 
-<script>
-  export default {
-    created() {
-      this.$store.dispatch('getCryptoList')
-    }
-  }
-</script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
