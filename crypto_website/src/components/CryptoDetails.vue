@@ -16,6 +16,7 @@
         </div>
     </div>
 </template>
+
 <script>
     export default {
 
@@ -24,7 +25,6 @@
         },
         created() {
             this.getCrypto(this.$route.params.id)
-            console.log(this.crypto.data)
         },
         methods:{
             getCrypto(index){

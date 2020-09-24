@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbf18cc0-0ee3-4871-9035-3834c3799b18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/src/components/CryptoDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/CryptoDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/src/components/CryptoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/CryptoList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/store/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hyB1GjZSh6u2H9v8LmaDLaM920" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbf18cc0-0ee3-4871-9035-3834c3799b18" name="Default Changelist" comment="" />
+      <created>1600973234319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600973234319</updated>
+      <workItem from="1600973238130" duration="12568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600977593305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600977593305" />
+    <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1600977649680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="76" width="585" height="888" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600977649680" />
+  </component>
+</project>

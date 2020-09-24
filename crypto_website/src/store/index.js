@@ -15,6 +15,7 @@ export default new Vuex.Store({
     cryptoList:[],
     page_number:1,
     cryptoData:{},
+    favoriteCrypto:[]
   },
   mutations: {
     fillCryptoList(state,payload){
@@ -31,6 +32,19 @@ export default new Vuex.Store({
     },
     fillCrypto(state,payload){
       state.cryptoData = payload
+    },
+    addFavorite(state,payload){
+      state.favoriteCrypto.push(payload)
+      localStorage.setItem("favoriteCrypto",JSON.stringify(state.favoriteCrypto));
+    },
+    deleteFavorite(state,payload){
+      var index = state.favoriteCrypto.indexOf(payload)
+      console.log(index)
+      state.favoriteCrypto.splice(index,1)
+      localStorage.setItem("favoriteCrypto",JSON.stringify(state.favoriteCrypto));
+    },
+    getFavorite(state){
+      state.favoriteCrypto=JSON.parse(localStorage.getItem("favoriteCrypto"));
     }
   },
   actions: {
@@ -40,10 +54,9 @@ export default new Vuex.Store({
     },
     async getCryptoDetails(context,index){
       const result= await CoinGeckoClient.coins.fetch(index);
-      console.log(result)
       context.commit('fillCrypto',result)
     }
   },
-  modules: {
+  modules:{
   }
 })
