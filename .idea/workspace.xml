@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf18cc0-0ee3-4871-9035-3834c3799b18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto_website/src/components/CryptoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/CryptoList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto_website/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600973234319</updated>
-      <workItem from="1600973238130" duration="13841000" />
+      <workItem from="1600973238130" duration="15743000" />
     </task>
     <servers />
   </component>
