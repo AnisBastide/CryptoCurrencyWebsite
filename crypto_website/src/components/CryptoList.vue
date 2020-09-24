@@ -11,7 +11,7 @@
             <template v-for="(item,index) in filteredList">
                 <tr>
                     <router-link v-bind:key="index" :to="'/Details/'+ item.id">
-                <td v-bind:key="index">{{item.name}}</td>
+                <td  v-bind:key="index">{{item.name}}</td>
                     </router-link>
                 <td>{{item.current_price}}</td>
                 <td>{{item.price_change_percentage_24h}}%</td>
@@ -65,8 +65,7 @@ export default {
 </script>
 
 <style>
-    table,
-    td {
+    table{
         border: 1px solid #333;
     }
 
@@ -84,5 +83,8 @@ export default {
     #buttonDiv{
         display:flex;
         justify-content: center;
+    }
+    tr{
+        border: 1px solid #333;
     }
 </style>
