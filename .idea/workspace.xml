@@ -21,10 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf18cc0-0ee3-4871-9035-3834c3799b18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto_website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto_website/src/components/CryptoDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/CryptoDetails.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto_website/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,10 +84,11 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="446" key="SwitcherDM" timestamp="1600991848867">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1601024608572">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600991848867" />
+    <state width="500" height="400" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1601024608572" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600977593305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

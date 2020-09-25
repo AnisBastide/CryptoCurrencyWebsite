@@ -13,9 +13,9 @@
                     <router-link v-bind:key="index" :to="'/Details/'+ item.id">
                         <td  v-bind:key="index">{{item.name}}</td>
                     </router-link>
-                    <td>{{item.market_data.current_price.eur}}</td>
-                    <td>{{item.market_data.price_change_percentage_24h}}%</td>
-                    <td>{{item.market_data.market_cap.eur}}</td>
+                    <td>{{item.market_data.current_price.eur}} €</td>
+                    <td>{{item.market_data.price_change_percentage_24h}} %</td>
+                    <td>{{item.market_data.market_cap.eur}} €</td>
                 </tr>
             </template>
         </table>
@@ -33,7 +33,7 @@
             this.getFavCryptoList()
         },
         beforeUpdate(){
-            
+
         },
         methods:{
             async getCrypto(value){
