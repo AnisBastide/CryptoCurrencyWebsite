@@ -6,15 +6,14 @@
                 <th>current price |</th>
                 <th>price change 24h |</th>
                 <th>market cap |</th>
-                <th>Favourite</th>
             </tr>
-            <template v-for="(item,index) in this.favoriteCryptoList">
+            <template v-for="(item,index) in this.lfav">
 
                 <tr>
                     <router-link v-bind:key="index" :to="'/Details/'+ item.id">
                         <td  v-bind:key="index">{{item.name}}</td>
                     </router-link>
-                    <td>{{item.data.market_data.current_price.eur}}</td>
+                    <td>{{item.market_data.current_price.eur}}</td>
                     <td>{{item.market_data.price_change_percentage_24h}}%</td>
                     <td>{{item.market_data.market_cap.eur}}</td>
                 </tr>
@@ -27,24 +26,36 @@
     export default {
         data(){
             return {
-                favoriteCryptoList:[]
+                lfav: [],
             }
         },
         created() {
-            this.GetFavoriteCryptoList()
-
+            this.getFavCryptoList()
+        },
+        beforeUpdate(){
+            
         },
         methods:{
-            getCrypto(value){
-                this.$store.dispatch('getCryptoDetails',value);
-                console.log(this.$store.state.cryptoData.data)
+            async getCrypto(value){
+                const res = await this.$store.dispatch('getCryptoDetails',value);
+                return res.data
+            },
+           async getFavCryptoList(){
+                var list=[]
+                for (var item of this.favoriteCryptoList){
+                    const res = await this.getCrypto(item)
+                    list.push(res)
+                }
+                this.lfav=list
+            }
+        },
+        computed:{
+             favoriteCryptoList(){
+                return this.$store.state.favoriteCrypto
+            },
+            cryptoData(){
                 return this.$store.state.cryptoData.data
             },
-            GetFavoriteCryptoList(){
-                this.$store.state.favoriteCrypto.forEach((value) => {
-                    this.favoriteCryptoList.push(this.getCrypto(value))
-                })
-            }
         }
     }
 </script>

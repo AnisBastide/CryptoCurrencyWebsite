@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf18cc0-0ee3-4871-9035-3834c3799b18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_website/src/components/CryptoDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/CryptoDetails.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/components/FavoriteCrypto.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto_website/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/crypto_website/src/store/index.js" afterDir="false" />
     </list>
@@ -33,6 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hyB1GjZSh6u2H9v8LmaDLaM920" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +77,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -87,9 +94,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600977593305" />
-    <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1600977649680">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="500" y="66" width="683" height="769" key="find.popup" timestamp="1601024356962">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="667" y="76" width="585" height="888" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600977649680" />
+    <state x="500" y="66" width="683" height="769" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1601024356962" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1601018828984">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1601018828984" />
   </component>
 </project>

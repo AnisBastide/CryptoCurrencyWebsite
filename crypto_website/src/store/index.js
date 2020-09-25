@@ -56,6 +56,7 @@ export default new Vuex.Store({
     async getCryptoDetails(context,index){
       const result= await CoinGeckoClient.coins.fetch(index);
       context.commit('fillCrypto',result)
+      return result
     }
   },
   modules:{

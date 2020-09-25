@@ -21,7 +21,9 @@
     export default {
 
         data(){
-            return {crypto:{}}
+            return {
+
+            }
         },
         created() {
             this.getCrypto(this.$route.params.id)
@@ -29,7 +31,11 @@
         methods:{
             getCrypto(index){
                 this.$store.dispatch('getCryptoDetails',index);
-                this.crypto = this.$store.state.cryptoData
+            }
+        },
+        computed:{
+            crypto(){
+                return this.$store.state.cryptoData
             }
         }
     }
