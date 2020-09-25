@@ -25,7 +25,7 @@ export default new Vuex.Store({
       state.page_number+=1
     },
     decrement(state){
-      if(state.page_number==1){
+      if(state.page_number===1){
         return;
       }
       state.page_number-=1
@@ -43,7 +43,9 @@ export default new Vuex.Store({
       localStorage.setItem("favoriteCrypto",JSON.stringify(state.favoriteCrypto));
     },
     getFavorite(state){
-      state.favoriteCrypto=JSON.parse(localStorage.getItem("favoriteCrypto"));
+      if(localStorage.getItem("favoriteCrypto")){
+        state.favoriteCrypto=JSON.parse(localStorage.getItem("favoriteCrypto"));
+      }
     }
   },
   actions: {
