@@ -8,7 +8,7 @@
                 <th>market cap |</th>
                 <th>Favourite</th>
             </tr>
-            <template v-for="(item,index) in this.crypto">
+            <template v-for="(item,index) in this.favoriteCryptoList">
 
                 <tr>
                     <router-link v-bind:key="index" :to="'/Details/'+ item.id">
@@ -27,7 +27,7 @@
     export default {
         data(){
             return {
-                crypto:[]
+                favoriteCryptoList:[]
             }
         },
         created() {
@@ -38,12 +38,11 @@
             getCrypto(value){
                 this.$store.dispatch('getCryptoDetails',value);
                 console.log(this.$store.state.cryptoData.data)
-
                 return this.$store.state.cryptoData.data
             },
             GetFavoriteCryptoList(){
                 this.$store.state.favoriteCrypto.forEach((value) => {
-                    this.crypto.push(this.getCrypto(value))
+                    this.favoriteCryptoList.push(this.getCrypto(value))
                 })
             }
         }
