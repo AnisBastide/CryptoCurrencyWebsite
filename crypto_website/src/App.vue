@@ -2,12 +2,21 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/Crypto">Crypto</router-link> |
+      <router-link to="/Favorite">Favorite</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+  export default {
+    created() {
+      this.$store.commit("getFavorite")
+    }
+  }
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -30,3 +39,5 @@
   color: #42b983;
 }
 </style>
+
+
